@@ -8,6 +8,6 @@ class MeetingController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('MeetingBundle:index.html.twig', null);
+        return $this->render('MeetingBundle:Index:index.html.twig', array());
     }
 }
