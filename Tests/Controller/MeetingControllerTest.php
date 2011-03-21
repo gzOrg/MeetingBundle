@@ -1,0 +1,9 @@
+<?php
+
+namespace Synergie\MeetingBundle\Tests\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+
+class MeetingControllerTest extends WebTestCase
+{
+}

@@ -1,0 +1,3 @@
+meeting:
+    pattern:  /meeting
+    defaults: { _controller: MeetingBundle:Meeting:index }
