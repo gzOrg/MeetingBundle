@@ -1,3 +1,12 @@
 meeting:
     pattern:  /meeting
     defaults: { _controller: MeetingBundle:Meeting:index }
+
+create:
+    pattern: /create/{name}
+    defaults: { _controller: MeetingBundle:Meeting:create, name: "" }
+
+list:
+    pattern: /list
+    defaults: { _controller: MeetingBundle:Meeting:list }
+
